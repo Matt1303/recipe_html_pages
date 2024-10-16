@@ -1,0 +1,186 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            /* Shared styles */
+            body {
+                font-family: Helvetica, sans-serif;
+                font-size: 16px;
+                color: #34302e;
+                margin: 0.25in;
+            }
+            @page {
+                size: letter portrait;
+                margin: 0.25in;
+            }
+            .name {
+                font-size: 18px;
+                font-family: Helvetica, sans-serif;
+                font-weight: normal;
+                margin: 0 0 10px 0;
+            }
+            .categories {
+                color: #605D5D;
+                font-size: 14px;
+                font-family: Helvetica, sans-serif;
+                font-style: italic;
+            }
+            .rating {
+                color: #d10505;
+                font-size: 14px;
+            }
+            .metadata {
+                font-size: 14px;
+            }
+            .infobox p {
+                margin: 0;
+                line-height: 150%;
+            }
+            .subhead {
+                color: #d10505;
+                font-weight: bold;
+                font-size: 14px;
+                text-transform: uppercase;
+                margin: 10px 0;
+            }
+            
+            .ingredients p {
+                margin: 4px 0;
+            }
+            /* To prevent nutrition/directions from getting too close
+               to ingredients */
+            .ingredients {
+                padding-bottom: 10px;
+            }
+            .clear {
+                clear:both;
+            }
+            a {
+                color: #4990E2;
+                text-decoration: none;
+            }
+            /* Full page specific styles */
+            .text {
+                line-height: 130%;
+            }
+            .photobox {
+                float: left;
+                margin-right: 14px;
+                            }
+            .photo {
+                max-width: 140px;
+                max-height: 140px;
+                width: auto;
+                height: auto;
+            }
+            .inline-image {
+                max-width: 25%;
+                max-height: 25%;
+                width: auto;
+                height: auto;
+            }
+            .photoswipe {
+                border: 1px #dddddd solid;
+                cursor: pointer;
+            }
+            .pswp__caption__center {
+                text-align: center !important;
+            }
+            .recipe {
+                page-break-after: always;
+                            }
+            .recipe:first-child {
+                border-top: 0 none;
+                margin-top: 0;
+                padding-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Recipe -->
+<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
+    
+    <div class="infobox">
+
+        <!-- Image -->
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">Miso, Mushroom, and Soba Bowl</h1>
+        
+        <!-- Info -->
+        
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="4">★★★★</p>
+            <p itemprop="recipeCategory" class="categories">Dinner, Fibre Fuelled</p>
+        
+        <p class="metadata">
+        
+            <!-- Cook time, prep time, servings, difficulty -->
+            <b>Difficulty: </b><span itemprop="">Medium</span>
+            <b>Servings: </b><span itemprop="">2</span>
+
+            <!-- Source -->
+
+        </p>
+        
+        <div class="clear"></div>
+
+    </div>
+    
+    <div class="left-column">
+
+        <!-- Ingredients -->
+        <div class="ingredientsbox">
+            <h3 class="subhead">Ingredients</h3>
+            <div class="ingredients text">
+                <p class="line" itemprop="recipeIngredient"><strong>75</strong> grams frozen, shelled edamame</p><p class="line" itemprop="recipeIngredient"><strong>115</strong> grams uncooked soba noodles</p><p class="line" itemprop="recipeIngredient"><strong>10 to 20</strong> mangetout, vertically sliced</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> teaspoons sesame oil</p><p class="line" itemprop="recipeIngredient"><strong>60</strong> ml Biome Broth or vegetable stock</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> teaspoon miso paste</p><p class="line" itemprop="recipeIngredient"><strong>0.25</strong> teaspoon 100% maple syrup</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> teaspoon grated fresh ginger root</p><p class="line" itemprop="recipeIngredient"><strong>0.25</strong> teaspoon salt; plus more to taste</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> teaspoon garlic-infused olive oil</p><p class="line" itemprop="recipeIngredient"><strong>90</strong> grams thinly sliced red cabbage</p><p class="line" itemprop="recipeIngredient"><strong>4</strong> rehydrated dried shiitake mushrooms, stems removed and sliced</p><p class="line" itemprop="recipeIngredient"><strong>1 to 2</strong> carrots, shaved into ribbons with vegetable peeler (1 large or 2 small)</p><p class="line" itemprop="recipeIngredient"><strong>4</strong> spring onions, sliced</p>
+            </div>
+        </div>
+        
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+
+    </div>
+    
+    <div class="right-column">
+    
+    <!-- Description -->
+    <div class="descriptionbox">
+        <h3 class="subhead">Description</h3>
+        <div itemprop="description" class="description text">
+            <p>&quot;Soba&quot; is the Japanese word for &quot;buckwheat,&quot; which is the wheat-free flour that makes up soba noodles. Oishi is the Japanese word for &quot;delicious,&quot; which is what you&apos;ll be saying while you enjoy the soba.</p>
+        </div>
+    </div>
+
+    <!-- Directions -->
+    <div class="directionsbox">
+        <h3 class="subhead">Directions</h3>
+        <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">Bring a medium saucepan of water to the boil over medium-high heat. Add the edamame and soba noodles and cook for 2 minutes.</p><p class="line">Add in the sliced mangetout and cook for an additional minute, until the noodles are tender. Drain and rinse with cold water to stop cooking. Set aside.</p><p class="line">In a small bowl, whisk together the sesame oil, stock, miso paste, maple syrup, ginger root, and salt. Set aside.</p><p class="line">Heat the olive oil in a medium frying pan over medium heat, then add in the cabbage, mushrooms, carrots, and spring onions. Toss and cook for about 3 minutes, until just tender.</p><p class="line">Add the edamame, noodles, mangetout, and sesame sauce to the frying pan and toss until the dish is heated through, 2 to 3 minutes.</p>
+        </div>
+    </div>
+
+    <!-- Notes -->
+    
+    <div class="notesbox">
+        <h3 class="subhead">Notes</h3>
+        <div itemprop="comment" class="notes text">
+            <p>Supercharge It!</p><p>Add a serving of cooked tofu for a higher protein dish.</p><br/><p><strong>Make-Ahead Tip:</strong></p><p>Prep the sauce and cbop the vegetables abead of time, then store in tbe fridge<br/>until ready to use.</p>
+        </div>
+    </div>
+    
+
+    <!-- Nutrition (in regular mode it goes below the notes) -->
+        <!-- Used in two different places depending on the recipe layout -->
+
+    
+    </div>
+    
+    <div class="clear"></div>
+
+</div>
+
+
+
+    </body>
+</html>

@@ -1,0 +1,185 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            /* Shared styles */
+            body {
+                font-family: Helvetica, sans-serif;
+                font-size: 16px;
+                color: #34302e;
+                margin: 0.25in;
+            }
+            @page {
+                size: letter portrait;
+                margin: 0.25in;
+            }
+            .name {
+                font-size: 18px;
+                font-family: Helvetica, sans-serif;
+                font-weight: normal;
+                margin: 0 0 10px 0;
+            }
+            .categories {
+                color: #605D5D;
+                font-size: 14px;
+                font-family: Helvetica, sans-serif;
+                font-style: italic;
+            }
+            .rating {
+                color: #d10505;
+                font-size: 14px;
+            }
+            .metadata {
+                font-size: 14px;
+            }
+            .infobox p {
+                margin: 0;
+                line-height: 150%;
+            }
+            .subhead {
+                color: #d10505;
+                font-weight: bold;
+                font-size: 14px;
+                text-transform: uppercase;
+                margin: 10px 0;
+            }
+            
+            .ingredients p {
+                margin: 4px 0;
+            }
+            /* To prevent nutrition/directions from getting too close
+               to ingredients */
+            .ingredients {
+                padding-bottom: 10px;
+            }
+            .clear {
+                clear:both;
+            }
+            a {
+                color: #4990E2;
+                text-decoration: none;
+            }
+            /* Full page specific styles */
+            .text {
+                line-height: 130%;
+            }
+            .photobox {
+                float: left;
+                margin-right: 14px;
+                            }
+            .photo {
+                max-width: 140px;
+                max-height: 140px;
+                width: auto;
+                height: auto;
+            }
+            .inline-image {
+                max-width: 25%;
+                max-height: 25%;
+                width: auto;
+                height: auto;
+            }
+            .photoswipe {
+                border: 1px #dddddd solid;
+                cursor: pointer;
+            }
+            .pswp__caption__center {
+                text-align: center !important;
+            }
+            .recipe {
+                page-break-after: always;
+                            }
+            .recipe:first-child {
+                border-top: 0 none;
+                margin-top: 0;
+                padding-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Recipe -->
+<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
+    
+    <div class="infobox">
+
+        <!-- Image -->
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">Nothing Fishy Sushi Wraps</h1>
+        
+        <!-- Info -->
+        
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="0"></p>
+            <p itemprop="recipeCategory" class="categories">Dinner, Fibre Fuelled</p>
+        
+        <p class="metadata">
+        
+            <!-- Cook time, prep time, servings, difficulty -->
+            <b>Servings: </b><span itemprop="">4, with leftovers for Nothing Fishy Sushi Bowls</span>
+
+            <!-- Source -->
+
+        </p>
+        
+        <div class="clear"></div>
+
+    </div>
+    
+    <div class="left-column">
+
+        <!-- Ingredients -->
+        <div class="ingredientsbox">
+            <h3 class="subhead">Ingredients</h3>
+            <div class="ingredients text">
+                <p class="line" itemprop="recipeIngredient">Sriracha Mayo</p><br/><p class="line" itemprop="recipeIngredient"><strong>60</strong> grams raw cashews, soaked in 240 ml boiling water for 10 minutes and drained</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> tablespoon freshly squeezed lime juice</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> tablespoon sriracha</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> teaspoons 100% maple syrup</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> teaspoons tamari</p><p class="line" itemprop="recipeIngredient"><strong>0.5</strong> teaspoon salt</p><br/><p class="line" itemprop="recipeIngredient">Wraps</p><br/><p class="line" itemprop="recipeIngredient"><strong>330</strong> grams white rice (short-grain rice will stick together more easily, but any rice will work)</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> teaspoons tamari</p><p class="line" itemprop="recipeIngredient"><strong>6</strong> toasted nori sheets, cut into quarters</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> cucumber, peeled and sliced into strips</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> large ripe mango, peeled and sliced into strips</p><p class="line" itemprop="recipeIngredient"><strong>225</strong> grams baked tofu, teriyaki flavour, sliced</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> large avocado, pitted and sliced thin</p><p class="line" itemprop="recipeIngredient">Sesame seeds, for topping</p>
+            </div>
+        </div>
+        
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+
+    </div>
+    
+    <div class="right-column">
+    
+    <!-- Description -->
+    <div class="descriptionbox">
+        <h3 class="subhead">Description</h3>
+        <div itemprop="description" class="description text">
+            <p>Nothing fishy here! This might be one of our favourite recipes in the entire book. Be warned, the sriracha mayo addictive; enjoy it here, on sandwiches, and anywhere else you want a spicy hit of creamy flavour.</p><p>We call these wraps, but they are assembled like a lettuce wrap. Pile everything high onto toasted nori sheets, loosely wrap, and enjoy. We like to serve these disassembled, with bowls of all the toppings for everyone to top and eat as they<br/>choose.</p><p>This recipe makes enough for leftovers as Nothing Fishy Sushi Bowls. They are exactly like they sound: Toss everything in a bowl, cover with leftover sriracha mayo, and enjoy.</p>
+        </div>
+    </div>
+
+    <!-- Directions -->
+    <div class="directionsbox">
+        <h3 class="subhead">Directions</h3>
+        <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">Make the mayo: Add-the cashews to the base of a blender with 60 ml cold water, the lime juice, sriracha, maple syrup, tamari, and salt. Blend until very creamy and smooth, scraping down the sides as needed.</p><p class="line">Assemble the wraps: Bring 600 ml water to a boil over medium-high heat in a large pot and add the rice. Reduce the heat to low, cover, and cook for 15 to 20 minutes, until the rice is tender (you might have to add a few minutes of cook time if you&apos;re using brown rice). Toss the warm rice with the vinegar and tamari. If you are using leftover cooked rice, add in a little warm water so the rice sticks together easily.</p><p class="line">Press together a small handful of warm rice to make a ball, then press on top of a quartered sheet of toasted nori. Top with the cucumber, mango, tofu, and avocado.</p><p class="line">Drizzle with the mayo and sprinkle with sesame seeds. Fold the wraps together and enjoy, dipping into more spicy mayo as desired!</p><p class="line">To make bowls, toss all the remaining ingredients together.</p>
+        </div>
+    </div>
+
+    <!-- Notes -->
+    
+    <div class="notesbox">
+        <h3 class="subhead">Notes</h3>
+        <div itemprop="comment" class="notes text">
+            <p>Cashews are high in GOS and have moderate fructans. The amount of cashews used in this recipe may still be low enough for you to tolerate if you are sensitive to GOS or fructans.<br/>40 grams of mango has moderate fructose; 80 grams has high fructose. If sensitive to fructose, reduce the amount so that only<br/>3 tablespoons are portioned into 1 serving (120 grams total).<br/>Half an avocado is high in sorbitol. If sensitive to sorbitol, reduce so that only avocado is portioned into 1 serving.</p><p><strong>Make Ahead Tips:</strong><br/>For the Nothing Fishy Sushi Bowls, pack rice, toppings, and leftover sriracha mayo separately into airtight containers in the fridge. When ready to assemble, toss everything together and enjoy.</p>
+        </div>
+    </div>
+    
+
+    <!-- Nutrition (in regular mode it goes below the notes) -->
+        <!-- Used in two different places depending on the recipe layout -->
+
+    
+    </div>
+    
+    <div class="clear"></div>
+
+</div>
+
+
+
+    </body>
+</html>

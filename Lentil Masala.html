@@ -1,0 +1,178 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            /* Shared styles */
+            body {
+                font-family: Helvetica, sans-serif;
+                font-size: 16px;
+                color: #34302e;
+                margin: 0.25in;
+            }
+            @page {
+                size: letter portrait;
+                margin: 0.25in;
+            }
+            .name {
+                font-size: 18px;
+                font-family: Helvetica, sans-serif;
+                font-weight: normal;
+                margin: 0 0 10px 0;
+            }
+            .categories {
+                color: #605D5D;
+                font-size: 14px;
+                font-family: Helvetica, sans-serif;
+                font-style: italic;
+            }
+            .rating {
+                color: #d10505;
+                font-size: 14px;
+            }
+            .metadata {
+                font-size: 14px;
+            }
+            .infobox p {
+                margin: 0;
+                line-height: 150%;
+            }
+            .subhead {
+                color: #d10505;
+                font-weight: bold;
+                font-size: 14px;
+                text-transform: uppercase;
+                margin: 10px 0;
+            }
+            
+            .ingredients p {
+                margin: 4px 0;
+            }
+            /* To prevent nutrition/directions from getting too close
+               to ingredients */
+            .ingredients {
+                padding-bottom: 10px;
+            }
+            .clear {
+                clear:both;
+            }
+            a {
+                color: #4990E2;
+                text-decoration: none;
+            }
+            /* Full page specific styles */
+            .text {
+                line-height: 130%;
+            }
+            .photobox {
+                float: left;
+                margin-right: 14px;
+                            }
+            .photo {
+                max-width: 140px;
+                max-height: 140px;
+                width: auto;
+                height: auto;
+            }
+            .inline-image {
+                max-width: 25%;
+                max-height: 25%;
+                width: auto;
+                height: auto;
+            }
+            .photoswipe {
+                border: 1px #dddddd solid;
+                cursor: pointer;
+            }
+            .pswp__caption__center {
+                text-align: center !important;
+            }
+            .recipe {
+                page-break-after: always;
+                            }
+            .recipe:first-child {
+                border-top: 0 none;
+                margin-top: 0;
+                padding-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Recipe -->
+<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
+    
+    <div class="infobox">
+
+        <!-- Image -->
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">Lentil Masala</h1>
+        
+        <!-- Info -->
+        
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="0"></p>
+            <p itemprop="recipeCategory" class="categories">Dinner, Fibre Fuelled</p>
+        
+        <p class="metadata">
+        
+            <!-- Cook time, prep time, servings, difficulty -->
+            <b>Servings: </b><span itemprop="">2</span>
+
+            <!-- Source -->
+
+        </p>
+        
+        <div class="clear"></div>
+
+    </div>
+    
+    <div class="left-column">
+
+        <!-- Ingredients -->
+        <div class="ingredientsbox">
+            <h3 class="subhead">Ingredients</h3>
+            <div class="ingredients text">
+                <p class="line" itemprop="recipeIngredient">Coriander-Lime Rice</p><br/><p class="line" itemprop="recipeIngredient"><strong>95</strong> grams uncooked basmati or brown rice</p><p class="line" itemprop="recipeIngredient">Salt</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> tablespoons freshly squeezed lime juice</p><p class="line" itemprop="recipeIngredient"><strong>0.25</strong> cup finely chopped coriander</p><br/><p class="line" itemprop="recipeIngredient">Lentils</p><br/><p class="line" itemprop="recipeIngredient"><strong>2</strong> teaspoons olive oil or Biome Broth</p><p class="line" itemprop="recipeIngredient"><strong>0.5</strong> yellow or white onion, chopped</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> cm piece fresh ginger root, grated or finely chopped</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> garlic cloves, finely chopped</p><p class="line" itemprop="recipeIngredient">Pinch salt and freshly ground black pepper</p><p class="line" itemprop="recipeIngredient">teaspoon garam masala</p><p class="line" itemprop="recipeIngredient"><strong>0.5</strong> teaspoon chilli powder</p><p class="line" itemprop="recipeIngredient"><strong>0.5</strong> teaspoon ground cinnamon</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> tablespoons tomato pasta</p><p class="line" itemprop="recipeIngredient"><strong>95</strong> grams dried green or brown lentils</p><br/><p class="line" itemprop="recipeIngredient">Cashew Cream</p><br/><p class="line" itemprop="recipeIngredient"><strong>30</strong> grams raw cashews (20 whole cashews)</p><p class="line" itemprop="recipeIngredient"><strong>80</strong> ml warm water</p><br/><p class="line" itemprop="recipeIngredient">Freshly squeezed lime juice to serve</p><p class="line" itemprop="recipeIngredient">Fresh coriander, to serve</p>
+            </div>
+        </div>
+        
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+
+    </div>
+    
+    <div class="right-column">
+    
+    <!-- Description -->
+    <div class="descriptionbox">
+        <h3 class="subhead">Description</h3>
+        <div itemprop="description" class="description text">
+            <p>It&apos;s no secret that we are big fans of Indian food. Packed with fragrant, antioxidant-rich spices, aromatics vegetables, and pulses. Indian cuisine is a great way to enjoy traditional Fibre Fuelled cuisine.</p><p>This simplified lentil masala uses cashew cream, a delicious, dairy-free alternative that tastes just as rich and luscious. If you haven&apos;t made cashew cream before, this is one recipe that you&apos;ll likely turn to over and over again; it works well in any recipe that calls for heavy cream.</p>
+        </div>
+    </div>
+
+    <!-- Directions -->
+    <div class="directionsbox">
+        <h3 class="subhead">Directions</h3>
+        <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">Make the rice: In a small saucepan, bring 240 ml of cold water to a boil over medium-high heat. Add the rice, reduce the heat to low, cover, and cook according to the packet instructions, until the rice is tender. Stir in 1/4 teaspoon salt, 1 tablespoon of the lime juice, and the coriander. Set aside.</p><p class="line">Make the lentils: Heat the olive oil in a large frying pan over medium heat. Add in the onion, ginger, and garlic and cook for 5 to 7 minutes, until softened. Add the salt and pepper along with the garam masala, chilli powder, and cinnamon. Cook for 1 minute, until fragrant.</p><p class="line">Add the tomato paste and cook for 1 more minute, until dark red and fragrant. Add the lentils and 480 ml cold water, then bring to a boil. Reduce the heat to medium-low, cover, and cook for 30 minutes, stirring occasionally, until the lentils are tender and most of the water has been absorbed.</p><p class="line">Make the cashew cream: Combine the cashews and warm water in a blender and blend until very creamy and thick. Depending on the power of your blender, this may take up to 5 minutes.</p><p class="line">Stir the cashew cream and remaining 1 tablespoon lime juice into the lentils and season to taste, adding more salt as needed. Serve over the reserved coriander-lime rice, topping with more coriander and lime juice as desired.</p>
+        </div>
+    </div>
+
+    <!-- Notes -->
+
+
+    <!-- Nutrition (in regular mode it goes below the notes) -->
+        <!-- Used in two different places depending on the recipe layout -->
+
+    
+    </div>
+    
+    <div class="clear"></div>
+
+</div>
+
+
+
+    </body>
+</html>

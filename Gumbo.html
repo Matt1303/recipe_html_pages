@@ -1,0 +1,186 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            /* Shared styles */
+            body {
+                font-family: Helvetica, sans-serif;
+                font-size: 16px;
+                color: #34302e;
+                margin: 0.25in;
+            }
+            @page {
+                size: letter portrait;
+                margin: 0.25in;
+            }
+            .name {
+                font-size: 18px;
+                font-family: Helvetica, sans-serif;
+                font-weight: normal;
+                margin: 0 0 10px 0;
+            }
+            .categories {
+                color: #605D5D;
+                font-size: 14px;
+                font-family: Helvetica, sans-serif;
+                font-style: italic;
+            }
+            .rating {
+                color: #d10505;
+                font-size: 14px;
+            }
+            .metadata {
+                font-size: 14px;
+            }
+            .infobox p {
+                margin: 0;
+                line-height: 150%;
+            }
+            .subhead {
+                color: #d10505;
+                font-weight: bold;
+                font-size: 14px;
+                text-transform: uppercase;
+                margin: 10px 0;
+            }
+            
+            .ingredients p {
+                margin: 4px 0;
+            }
+            /* To prevent nutrition/directions from getting too close
+               to ingredients */
+            .ingredients {
+                padding-bottom: 10px;
+            }
+            .clear {
+                clear:both;
+            }
+            a {
+                color: #4990E2;
+                text-decoration: none;
+            }
+            /* Full page specific styles */
+            .text {
+                line-height: 130%;
+            }
+            .photobox {
+                float: left;
+                margin-right: 14px;
+                            }
+            .photo {
+                max-width: 140px;
+                max-height: 140px;
+                width: auto;
+                height: auto;
+            }
+            .inline-image {
+                max-width: 25%;
+                max-height: 25%;
+                width: auto;
+                height: auto;
+            }
+            .photoswipe {
+                border: 1px #dddddd solid;
+                cursor: pointer;
+            }
+            .pswp__caption__center {
+                text-align: center !important;
+            }
+            .recipe {
+                page-break-after: always;
+                            }
+            .recipe:first-child {
+                border-top: 0 none;
+                margin-top: 0;
+                padding-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Recipe -->
+<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
+    
+    <div class="infobox">
+
+        <!-- Image -->
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">Gumbo</h1>
+        
+        <!-- Info -->
+        
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="4">★★★★</p>
+            <p itemprop="recipeCategory" class="categories">Dinner, Fibre Fuelled</p>
+        
+        <p class="metadata">
+        
+            <!-- Cook time, prep time, servings, difficulty -->
+            <b>Difficulty: </b><span itemprop="">Medium</span>
+            <b>Servings: </b><span itemprop="">4</span>
+
+            <!-- Source -->
+
+        </p>
+        
+        <div class="clear"></div>
+
+    </div>
+    
+    <div class="left-column">
+
+        <!-- Ingredients -->
+        <div class="ingredientsbox">
+            <h3 class="subhead">Ingredients</h3>
+            <div class="ingredients text">
+                <p class="line" itemprop="recipeIngredient">Salt and freshly ground black pepper</p><p class="line" itemprop="recipeIngredient"><strong>380</strong> grams uncooked brown rice</p><p class="line" itemprop="recipeIngredient"><strong>3</strong> tablespoons olive oil</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> medium onion, diced</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> green sweet pepper, diced</p><p class="line" itemprop="recipeIngredient"><strong>3</strong> celery sticks, diced</p><p class="line" itemprop="recipeIngredient"><strong>3</strong> garlic cloves, finely chopped</p><p class="line" itemprop="recipeIngredient">Salt</p><p class="line" itemprop="recipeIngredient"><strong>30</strong> grams plain flour</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> teaspoons smoked paprika</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> teaspoons dried thyme</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> teaspoon freshly ground black pepper</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> teaspoon dried oregano</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> litre vegetable stock or Biome Broth (separate recipe)</p><p class="line" itemprop="recipeIngredient">One 400 gram can fire-roasted tomatoes, drained</p><p class="line" itemprop="recipeIngredient">One 400 gram can kidney beans, drained and rinsed</p><p class="line" itemprop="recipeIngredient"><strong>150</strong> grams frozen, sliced okra</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> tablespoons vegan Worcestershire sauce</p>
+            </div>
+        </div>
+        
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+
+    </div>
+    
+    <div class="right-column">
+    
+    <!-- Description -->
+    <div class="descriptionbox">
+        <h3 class="subhead">Description</h3>
+        <div itemprop="description" class="description text">
+            <p>While this recipe comes together easily, it does take time for the vegetables to cook down and the gumbo to simmer. If that&apos;s too much on a weeknight, then add this recipe to your prep list for Sunday and plan on cooking just the rice that night. Freeze half for use now and place the remaining half in the fridge until ready to eat.</p>
+        </div>
+    </div>
+
+    <!-- Directions -->
+    <div class="directionsbox">
+        <h3 class="subhead">Directions</h3>
+        <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">Make the rice: Bring 1 litre water and a pinch salt to a boil in a large pan over medium-high heat, then add the rice, Reduce the heat to low, cover, and let the rice cook for about 45 minutes, until tender.</p><p class="line">Make the gumbo: Heat the olive oil in a large flameproof casserole dish over medium heat. Add the onion, sweet pepper, celery, and garlic along with a pinch of salt and cook, stirring occasionally, for about 15 minutes, until the vegetables are lightly browned and cooked through.</p><p class="line">Sprinkle the flour on the vegetables and stir, cooking for 2 to 3 more minutes, until the flour is slightly toasted and smells nutty. Add in the paprika, thyme, black pepper, and oregano and stir together, cooking another 30 to 60 seconds, until just fragrant.</p><p class="line">Add in the stock, tomatoes, beans, okra, and Worcestershire sauce and whisk together to combine, trying to scrape up any browned bits of vegetable and flour on the bottom of the pan. Raise the heat to medium-high and bring to a boil. Once boiling, reduce the heat and simmer, stirring occasionally, until thick, about 30 minutes.</p><p class="line">Divide 200 grams of the cooked rice between two bowls and top with Gumbo. Reserve the remaining rice for Kimchi Fried Rice (separate recipe) and freeze the remaining Gumbo for dinner next week.</p>
+        </div>
+    </div>
+
+    <!-- Notes -->
+    
+    <div class="notesbox">
+        <h3 class="subhead">Notes</h3>
+        <div itemprop="comment" class="notes text">
+            <p><strong>Low FODMAP Options:</strong></p><p>Onion is high in fructans and has moderate GOS. Omit and swap in 50 grams spring onion greens.<br/>A quarter of a green sweet pepper contains moderate FODMAPs. Reduce the amount used in the recipe to 0.5 green sweet pepper, of use a whole red pepper instead of a green pepper.<br/>Three celery sticks have moderate mannitol. Reduce to 1 celery stick.<br/>Garlic is high in fructans. Omit and swap garlic-infused olive oi for the regular olive oil.<br/>Wheat flour is high in GOS and fructans. Use gluten-free flour.<br/>Kidney beans are high in GOS and fructans. Use 170 grams chickpeas or canned lentils.</p><p><strong>Meal Prep Tip:</strong></p><p>Both the rice and gumbo make an appearance later in the plan. Save 400 grams cooked rice for Kimchi Fried Rice and freeze the remaining Gumbo for dinner in Week 4. If making this on Week 3, then make the full 380 grams of brown rice to<br/>use leftovers for Kimchi Fried Rice. If just making the gumbo, then cook 95 grams of dry brown rice.</p><p>Supercharge It!</p><p>Top with chopped parsley</p>
+        </div>
+    </div>
+    
+
+    <!-- Nutrition (in regular mode it goes below the notes) -->
+        <!-- Used in two different places depending on the recipe layout -->
+
+    
+    </div>
+    
+    <div class="clear"></div>
+
+</div>
+
+
+
+    </body>
+</html>
