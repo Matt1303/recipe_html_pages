@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
@@ -6,32 +6,28 @@
             /* Shared styles */
             body {
                 font-family: Helvetica, sans-serif;
-                font-size: 16px;
+                font-size: 16.0px;
                 color: #34302e;
                 margin: 0.25in;
             }
-            @page {
-                size: letter portrait;
-                margin: 0.25in;
-            }
             .name {
-                font-size: 18px;
+                font-size: 18.0px;
                 font-family: Helvetica, sans-serif;
                 font-weight: normal;
                 margin: 0 0 10px 0;
             }
             .categories {
                 color: #605D5D;
-                font-size: 14px;
+                font-size: 14.0px;
                 font-family: Helvetica, sans-serif;
                 font-style: italic;
             }
             .rating {
                 color: #d10505;
-                font-size: 14px;
+                font-size: 14.0px;
             }
             .metadata {
-                font-size: 14px;
+                font-size: 14.0px;
             }
             .infobox p {
                 margin: 0;
@@ -40,7 +36,7 @@
             .subhead {
                 color: #d10505;
                 font-weight: bold;
-                font-size: 14px;
+                font-size: 14.0px;
                 text-transform: uppercase;
                 margin: 10px 0;
             }
@@ -65,15 +61,19 @@
                 line-height: 130%;
             }
             .photobox {
+                
                 float: left;
                 margin-right: 14px;
-                            }
+                
+                
+            }
             .photo {
-                max-width: 140px;
-                max-height: 140px;
+                max-width: 140.0px;
+                max-height: 140.0px;
                 width: auto;
                 height: auto;
             }
+            
             .inline-image {
                 max-width: 25%;
                 max-height: 25%;
@@ -88,8 +88,11 @@
                 text-align: center !important;
             }
             .recipe {
+                
                 page-break-after: always;
-                            }
+                
+                
+            }
             .recipe:first-child {
                 border-top: 0 none;
                 margin-top: 0;
@@ -104,33 +107,44 @@
     <div class="infobox">
 
         <!-- Image -->
+        
 
         <!-- Name -->
         <h1 itemprop="name" class="name">Back-Pocket Stir-Fry</h1>
         
         <!-- Info -->
         
+        
         <!-- Rating, categories -->
         <p itemprop="aggregateRating" class="rating" value="4">★★★★</p>
+        
             <p itemprop="recipeCategory" class="categories">Dinner, Fibre Fuelled</p>
+        
         
         <p class="metadata">
         
             <!-- Cook time, prep time, servings, difficulty -->
-            <b>Difficulty: </b><span itemprop="">Medium</span>
-            <b>Servings: </b><span itemprop="">4</span>
+            
+            <b>Difficulty: </b><span itemprop="difficulty">Medium</span>
+            
+            <b>Servings: </b><span itemprop="recipeYield">4</span>
+            
 
             <!-- Source -->
-
+            
         </p>
         
+        
+        
         <div class="clear"></div>
+        
 
     </div>
     
     <div class="left-column">
 
         <!-- Ingredients -->
+        
         <div class="ingredientsbox">
             <h3 class="subhead">Ingredients</h3>
             <div class="ingredients text">
@@ -138,29 +152,36 @@
             </div>
         </div>
         
+        
         <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+        
 
     </div>
     
     <div class="right-column">
     
     <!-- Description -->
+    
     <div class="descriptionbox">
         <h3 class="subhead">Description</h3>
         <div itemprop="description" class="description text">
             <p>Simplicity wins here. This stir-fry is made for Week 1 but simple enough to mix and match with other vegetables after the<br/>first week. Instead of a traditional protein source, we&apos;re serving this over quinoa, a pseudo-grain that packs in 8 grams of protein and 5 grams of fibre per cooked serving of 185 grams. Enjoy leftoves<br/>for lunch later in the week.</p>
         </div>
     </div>
+    
 
     <!-- Directions -->
+    
     <div class="directionsbox">
         <h3 class="subhead">Directions</h3>
         <div itemprop="recipeInstructions" class="directions text">
             <p class="line">In a small bowl, whisk together the tamari, vinegar, sesame oil, and cornflour until smooth. Set aside.</p><p class="line">Heat the broth in a large frying pan or wok over medium-high heat. Add the ginger, chilli, if using, and sliced spring onions. Cook, stirring often, until fragrant, about 1 minute.</p><p class="line">Add the broccoli, carrots, sweet pepper, and pak choi stems and cook, stirring often, for 5 to 7 minutes, until the vegetables are bright in colour and slightly tender. Add in the pak choi leaves and oyster mushrooms and stir together for 30 seconds.</p><p class="line">Add the tamari mixture to the wok. Cook, stirring often, until the sauce has thickened and the vegetables are cooked through.</p><p class="line">Serve over cooked quinoa.</p>
         </div>
     </div>
+    
 
     <!-- Notes -->
+    
     
     <div class="notesbox">
         <h3 class="subhead">Notes</h3>
@@ -169,16 +190,22 @@
         </div>
     </div>
     
+    
 
     <!-- Nutrition (in regular mode it goes below the notes) -->
+    
         <!-- Used in two different places depending on the recipe layout -->
 
+
+    
     
     </div>
     
     <div class="clear"></div>
 
 </div>
+
+
 
 
 

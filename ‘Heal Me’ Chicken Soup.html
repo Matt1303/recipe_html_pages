@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            /* Shared styles */
+            body {
+                font-family: Helvetica, sans-serif;
+                font-size: 16.0px;
+                color: #34302e;
+                margin: 0.25in;
+            }
+            .name {
+                font-size: 18.0px;
+                font-family: Helvetica, sans-serif;
+                font-weight: normal;
+                margin: 0 0 10px 0;
+            }
+            .categories {
+                color: #605D5D;
+                font-size: 14.0px;
+                font-family: Helvetica, sans-serif;
+                font-style: italic;
+            }
+            .rating {
+                color: #d10505;
+                font-size: 14.0px;
+            }
+            .metadata {
+                font-size: 14.0px;
+            }
+            .infobox p {
+                margin: 0;
+                line-height: 150%;
+            }
+            .subhead {
+                color: #d10505;
+                font-weight: bold;
+                font-size: 14.0px;
+                text-transform: uppercase;
+                margin: 10px 0;
+            }
+            
+            .ingredients p {
+                margin: 4px 0;
+            }
+            /* To prevent nutrition/directions from getting too close
+               to ingredients */
+            .ingredients {
+                padding-bottom: 10px;
+            }
+            .clear {
+                clear:both;
+            }
+            a {
+                color: #4990E2;
+                text-decoration: none;
+            }
+            /* Full page specific styles */
+            .text {
+                line-height: 130%;
+            }
+            .photobox {
+                
+                float: left;
+                margin-right: 14px;
+                
+                
+            }
+            .photo {
+                max-width: 140.0px;
+                max-height: 140.0px;
+                width: auto;
+                height: auto;
+            }
+            
+            .inline-image {
+                max-width: 25%;
+                max-height: 25%;
+                width: auto;
+                height: auto;
+            }
+            .photoswipe {
+                border: 1px #dddddd solid;
+                cursor: pointer;
+            }
+            .pswp__caption__center {
+                text-align: center !important;
+            }
+            .recipe {
+                
+                page-break-after: always;
+                
+                
+            }
+            .recipe:first-child {
+                border-top: 0 none;
+                margin-top: 0;
+                padding-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Recipe -->
+<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
+    
+    <div class="infobox">
+
+        <!-- Image -->
+        
+        <div class="photobox">
+            
+            <a href="https://files.mob-cdn.co.uk/articles/Hearty-Chicken-Noodle-Soup.jpg">
+                <img src="Images/156C4BC0-EC3E-4A87-B721-7E3BE2F77584/85E4369B-B8B6-48C5-AECA-273D06AF2F27.jpg" itemprop="image" class="photo photoswipe"/>
+            </a>
+            
+            
+        </div>
+        
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">‘Heal Me’ Chicken Soup</h1>
+        
+        <!-- Info -->
+        
+        
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="0"></p>
+        
+            <p itemprop="recipeCategory" class="categories">Mob</p>
+        
+        
+        <p class="metadata">
+        
+            <!-- Cook time, prep time, servings, difficulty -->
+            
+            <b>Total Time: </b><span itemprop="totalTime">45 min</span>
+            
+            <b>Servings: </b><span itemprop="recipeYield">Serves 4</span>
+            
+
+            <!-- Source -->
+            
+                <b>Source: </b>
+                
+                    <a itemprop="url" href="https://www.mob.co.uk/recipes/chicken-soup">
+                        <span itemprop="author">Mob.co.uk</span>
+                    </a>
+                
+                
+            
+        </p>
+        
+        
+        
+        <div class="clear"></div>
+        
+
+    </div>
+    
+    <div class="left-column">
+
+        <!-- Ingredients -->
+        
+        <div class="ingredientsbox">
+            <h3 class="subhead">Ingredients</h3>
+            <div class="ingredients text">
+                <p class="line" itemprop="recipeIngredient"><strong>400</strong> g Cooked Chicken</p><p class="line" itemprop="recipeIngredient"><strong>80</strong> g Celery</p><p class="line" itemprop="recipeIngredient"><strong>4</strong> Carrots</p><p class="line" itemprop="recipeIngredient"><strong>4</strong> Spring Onions</p><p class="line" itemprop="recipeIngredient"><strong>1</strong>L Chicken Stock</p><p class="line" itemprop="recipeIngredient"><strong>280</strong> g Pasta</p><p class="line" itemprop="recipeIngredient"><strong>25</strong> g Parsley</p><p class="line" itemprop="recipeIngredient"><strong>25</strong> g Dill</p><p class="line" itemprop="recipeIngredient"><strong>4</strong> tbsp Crème Fraîche</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> Lemon</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> Pinch Chilli Flakes</p><p class="line" itemprop="recipeIngredient">Olive Oil</p>
+            </div>
+        </div>
+        
+        
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+        
+
+    </div>
+    
+    <div class="right-column">
+    
+    <!-- Description -->
+    
+    <div class="descriptionbox">
+        <h3 class="subhead">Description</h3>
+        <div itemprop="description" class="description text">
+            <p>Fall-apart chicken teamed with wedges of veg and simmered with a bunch of fresh herbs. Plus a few heaping spoons of crème fraîche. Comfort in a bowl.</p>
+        </div>
+    </div>
+    
+
+    <!-- Directions -->
+    
+    <div class="directionsbox">
+        <h3 class="subhead">Directions</h3>
+        <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">Strip the meat from the chicken, keeping the skin on if you can. Cut the celery into chunky diamonds and peel and cut the carrots into little diamond nuggets. Cut the spring onion whites into 3cm chunks and finely slice the green tops.</p><p class="line">Pour the chicken stock into a large pot and bring to a simmer. Add the carrots and cook for 10-12 mins until they’re barely approaching tender. Drop in the pasta or noodles along with your spring onion whites and the celery. Let the lot bubble away for 10 mins until everything is beautifully cooked.</p><p class="line">Roughly chop the herbs and bung them in with the chicken and plenty of salt and pepper. Add a few tbsp of olive oil for gloss and divide between warm bowls. Top with a healthy dollop of crème fraîche, a pinch of chilli flakes, a squeeze of lemon juice and extra olive oil. Serve with bread and butter if you’re feeling particularly delicate.</p>
+        </div>
+    </div>
+    
+
+    <!-- Notes -->
+    
+
+    <!-- Nutrition (in regular mode it goes below the notes) -->
+    
+        <!-- Used in two different places depending on the recipe layout -->
+
+
+<div class="nutritionbox textbox">
+    <h3 class="subhead">Nutrition</h3>
+    <div itemprop="nutrition" class="nutrition text">
+        <p>Calories 648kcal<br/>Fat 19g<br/>Saturated fat 5g<br/>Dietary fibre 6g<br/>Sugars 11g<br/>Carbohydrates 68g<br/>Protein 44g<br/>Sodium 587mg</p>
+    </div>
+</div>
+
+
+
+    
+    
+    </div>
+    
+    <div class="clear"></div>
+
+</div>
+
+
+
+
+
+    </body>
+</html>
