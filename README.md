@@ -6,335 +6,326 @@ Comprehensive List of Plant Foods by Category
 
 Beans
 
-Black beans
-
-Kidney beans
-
-Pinto beans
-
-Navy beans
-
-Cannellini beans
-
-Chickpeas (Garbanzo beans)
-
-Lentils (Green, Brown, Red, Puy)
-
 Adzuki beans
-
-Mung beans
-
-Soybeans (Edamame)
-
+Anasazi beans
+Black beans
+Black-eyed peas
+Broad beans
+Cannellini beans
+Chickpeas (Ceci, Garbanzo beans)
 Fava beans
-
+Green beans
+Kidney beans
+Lentils: brown, green, red, Puy
 Lima beans
-
-Peas (Split peas, Green peas, Black-eyed peas)
-
+Mung beans
+Navy beans
+Pinto beans
+Runner beans
+Split peas
+Soy beans (Edamame)
+Butter beans
+Marrowfat peas
+Borlotti beans
+Puy lentils
+Peas (Green peas, Black-eyed peas)
 
 Berries
 
-Strawberries
-
-Blueberries
-
 Blackberries
-
-Raspberries
-
+Black currants
+Blueberries
+Boysenberries
 Cranberries
-
-Goji berries
-
-Acai berries
-
 Elderberries
-
+Goji berries
+Honeyberries
+Huckleberries
+Raspberries
+Strawberries
 Mulberries
-
+Tayberries
+Loganberries
+Acai berries
 Gooseberries
-
 
 Other Fruits
 
 Apples
-
-Pears
-
+Apricots
 Bananas
-
-Oranges
-
-Lemons
-
-Limes
-
-Grapes
-
-Pineapple
-
-Watermelon
-
-Cantaloupe
-
-Mango
-
-Papaya
-
-Peaches
-
-Plums
-
+Cantaloupes
 Cherries
-
-Kiwi
-
-Pomegranates
-
-Figs
-
+Clementines
+Currants
 Dates
-
+Dragon fruit
+Figs
+Grapes
+Grapefruit
+Guava
+Honeydew
+Jackfruit
+Kiwis
+Kumquats
+Lemons
+Limes
+Mandarins
+Medjool dates
+Mangoes
+Nectarines
+Oranges
+Papayas
+Passion fruit
+Peaches
+Pears
+Persimmons
+Pineapples
+Plums
+Pluots
+Pomegranates
+Prickly pears
+Pummelos
+Quinces
+Star fruit
+Tangerines
+Watermelon
+Sharon fruit
 
 Cruciferous Vegetables
 
-Broccoli
-
-Cauliflower
-
-Brussels sprouts
-
-Cabbage (Green, Red, Napa)
-
-Kale
-
 Bok choy
-
+Broccoli
+Broccolini
+Broccoli raab
+Brussels sprouts
+Cabbage (Green, Red, Napa)
+Cauliflower
+Chinese cabbage
 Collard greens
-
-Arugula (Rocket)
-
-Radishes
-
-Turnips
-
-Watercress
-
+Kale
+Kohlrabi
 Mustard greens
-
+Napa cabbage
+Rapini
+Red cabbage
+Savoy cabbage
+Turnip greens
+Watercress
+Arugula (Rocket)
+Radishes
+Turnips
 
 Greens
 
-Spinach
-
-Swiss chard
-
-Lettuce (Romaine, Butter, Iceberg)
-
+Arugula
 Beet greens
-
+Chard
 Dandelion greens
-
 Endive
-
 Escarole
-
+Frisee
+Green leaf lettuce
+Iceberg lettuce
+Lettuce (various types)
+Radicchio
+Red leaf lettuce
+Romaine
+Spinach
+Swiss chard
+Purslane
 Mesclun
-
 Mizuna
-
 
 Other Vegetables
 
-Carrots
-
-Bell peppers (Red, Yellow, Green)
-
-Zucchini
-
-Squash (Butternut, Acorn, Spaghetti)
-
-Sweet potatoes
-
-Beets
-
-Onions
-
-Garlic
-
-Leeks
-
-Scallions (Green onions)
-
+Acorn squash
+Alfalfa sprouts
+Anise
+Artichoke
 Asparagus
-
-Artichokes
-
+Avocados
+Baby potatoes
+Bamboo shoots
+Bean sprouts
+Beets
+Beetroot
+Boston lettuce
+Butter lettuce
+Butternut squash
+Burdock root
+Calabrese
+Carrots
 Celery
-
+Chili peppers
+Chives
+Corn
+Courgettes (Zucchini)
 Cucumbers
-
-Tomatoes
-
-Eggplant
-
-Mushrooms (technically fungi, but often grouped with vegetables)
-
+Daikon
+Delicata squash
+Eggplant (Aubergine)
+Fennel
+Garlic
+Gem squash
+Ginger
+Green onions
+Hearts of Palm
+Horseradish
+Jalapeno pepper
+Japanese sweet potatoes
+Jicama
+Kabocha squash
+Leeks
+Lotus root
+Mushrooms
 Okra
+Onions
+Parsnips
+Pea pods
+Pearl onions
+Pepinos
+Peppers (bell, poblano, etc.)
+Plantains
+Pumpkin
+Purple potatoes
+Radishes
+Rhubarb
+Root vegetables
+Rutabaga (Swede)
+Scallions
+Shallots
+Snap peas
+Snow peas
+Spaghetti squash
+Sugar snap peas
+Summer squash
+Sweet potatoes
+Taro
+Tomatillos
+Tomatoes
+Tubers
+Turban squash
+Turnips
+Wasabi
+Water chestnut
+Wax beans
+Winter squash
+Yams
+Yucca
+Mesclun
+Mizuna
 
+Flaxseeds or Linseeds
 
-Flaxseeds (or Linseeds)
-
+Flax seeds
+Linseeds
 Brown flaxseeds
-
 Golden flaxseeds
-
-Ground flaxseed (commonly used in recipes or as a supplement)
-
+Ground flaxseed
 
 Nuts and Seeds
 
 Almonds
-
-Walnuts
-
-Cashews
-
-Pecans
-
 Brazil nuts
-
-Hazelnuts
-
-Pistachios
-
-Macadamia nuts
-
+Cashews
+Chestnuts
 Chia seeds
-
+Coconut
+Filberts
+Hazelnuts
 Hemp seeds
-
-Sunflower seeds
-
-Pumpkin seeds (Pepitas)
-
-Sesame seeds
-
+Hickory nuts
+Macadamia nuts
+Paradise nuts
+Peanuts
+Pecans
+Pepitas
 Pine nuts
-
+Pistachios
+Poppy seeds
+Pumpkin seeds
+Sesame seeds
+Sunflower seeds
+Walnuts
 
 Herbs and Spices
 
+Allspice
+Ancho chili powder
+Anise
+Annatto seeds
 Basil
-
-Cilantro (Coriander)
-
-Parsley
-
-Rosemary
-
-Thyme
-
-Oregano
-
-Dill
-
-Mint
-
-Sage
-
-Tarragon
-
-Chives
-
-Fennel
-
-Turmeric
-
-Ginger
-
-Cinnamon
-
-Cumin
-
-Paprika
-
-Black pepper
-
+Bay leaf
 Cayenne pepper
-
-Cardamom
-
+Celery flakes
+Celery seeds
+Chili powder
+Cinnamon
 Cloves
-
+Coriander (Cilantro)
+Cumin
+Dill
+Fennel
+Fenugreek
+Garlic powder
+Ginger
+Lemon grass
+Lemon peel
+Mint
+Mustard powder
+Mustard seeds
 Nutmeg
-
+Onion powder
+Oregano
+Paprika
+Parsley
+Peppercorns
+Rosemary
 Saffron
-
+Sage
+Salt (kosher, sea)
+Tarragon
+Thyme
+Turmeric
+Vanilla
+Wasabi
+Zaatar
+Cardamom
+Black pepper
+Cayenne pepper
 
 Whole Grains
 
-Oats
-
-Quinoa
-
+Amaranth
 Barley
-
 Brown rice
-
+Buckwheat
+Bulgur
+Emmer
+Kamut
+Millet
+Oats (rolled, steel-cut)
+Quinoa
+Rye
+Sorghum
+Spelt
+Teff
+Wheat berries
 Wild rice
-
+Whole grain pasta
+Whole wheat flour
 Farro
 
-Millet
+Fermented Foods
 
-Buckwheat
-
-Bulgur
-
-Amaranth
-
-Rye
-
-Spelt
-
-Sorghum
-
-Teff
-
-
-
----
-
-List of Fermented Foods for Gut Diversity
-
-Kimchi (fermented vegetables)
-
-Sauerkraut (fermented cabbage)
-
-Tempeh (fermented soybeans)
-
-Miso (fermented soybeans or rice)
-
-Natto (fermented soybeans)
-
-Kefir (fermented milk or water, depending on the culture used)
-
-Kombucha (fermented tea)
-
-Yogurt (fermented dairy or plant-based milk)
-
-Pickles (fermented, non-vinegar variety)
-
+Kimchi
+Sauerkraut
+Tempeh
+Miso
+Natto
+Kefir
+Kombucha
+Yogurt (plant-based)
+Pickles (fermented)
 Fermented garlic
-
-Fermented beets
-
-Fermented carrots
-
-
-These fermented foods are commonly cited as beneficial for promoting gut diversity due to their probiotic content.
-
-Let me know if you'd like further elaboration on any of the categories!
-
