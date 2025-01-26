@@ -108,26 +108,29 @@
 
         <!-- Image -->
         
+        <div class="photobox">
+            
+            <a href="#">
+                <img src="Images/6C7B96E8-4CC8-4618-AEF2-CFE87D91A177/ABC09E7F-8B53-4A19-8422-CDA06BD123B9.jpg" itemprop="image" class="photo photoswipe"/>
+            </a>
+            
+            
+        </div>
+        
 
         <!-- Name -->
-        <h1 itemprop="name" class="name">Superfood Smoothie, With Bowl Option</h1>
+        <h1 itemprop="name" class="name">Papardelle with Fennel Sausage Ragu</h1>
         
         <!-- Info -->
         
         
         <!-- Rating, categories -->
-        <p itemprop="aggregateRating" class="rating" value="3">★★★</p>
-        
-            <p itemprop="recipeCategory" class="categories">Breakfasts, Fibre Fuelled</p>
+        <p itemprop="aggregateRating" class="rating" value="0"></p>
         
         
         <p class="metadata">
         
             <!-- Cook time, prep time, servings, difficulty -->
-            
-            <b>Difficulty: </b><span itemprop="difficulty">Easy</span>
-            
-            <b>Servings: </b><span itemprop="recipeYield">2</span>
             
 
             <!-- Source -->
@@ -145,13 +148,6 @@
 
         <!-- Ingredients -->
         
-        <div class="ingredientsbox">
-            <h3 class="subhead">Ingredients</h3>
-            <div class="ingredients text">
-                <p class="line" itemprop="recipeIngredient"><strong>240</strong>ml almond milk</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> tablespoons hemp seeds</p><p class="line" itemprop="recipeIngredient"><strong>15</strong> grams spinach leaves</p><p class="line" itemprop="recipeIngredient">Small handful broccoli sprouts</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> kiwi,skin removed</p><p class="line" itemprop="recipeIngredient"><strong>5</strong> medium strawberries</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> tablespoons peanut butter</p><p class="line" itemprop="recipeIngredient"><strong>0.5</strong> frozen banana</p><p class="line" itemprop="recipeIngredient"><strong>1 to 2</strong> teaspoons 100% maple syrup (optional)</p>
-            </div>
-        </div>
-        
         
         <!-- Nutrition (in two-column mode it goes below the ingredients) -->
         
@@ -162,22 +158,8 @@
     
     <!-- Description -->
     
-    <div class="descriptionbox">
-        <h3 class="subhead">Description</h3>
-        <div itemprop="description" class="description text">
-            <p>We call this a &quot;superfood&quot; smoothie for good reason--it&apos;s packed with all of the good stuff. ALA-rich hemp seeds, spinach, brocoli<br/>sprouts, berries. and satisfying peanut butter. If you prefer your smoothie on the sweeter side, you may need a touch of maple syrup for Weeks 1 and 2. From there, feel free to add in more berries or<br/>maple syrup kiwi and omit the sweetener altogether.</p>
-        </div>
-    </div>
-    
 
     <!-- Directions -->
-    
-    <div class="directionsbox">
-        <h3 class="subhead">Directions</h3>
-        <div itemprop="recipeInstructions" class="directions text">
-            <p class="line">Place all ingredients in a blender and puree until very smooth and creamy. Depending on the power of your blender, you may need to add more liquid. To make a smoothie bowl, reduce the liquid by half (use 120 ml dlmond milk), then blend as directed. Divide the contents into two bowls and drizzle with peanut butter and top with more berries, if<br/>desired. Garnish with more fresh fruit, seeds, nut butter, and Crispy Oat Granola.<br/></p>
-        </div>
-    </div>
     
 
     <!-- Notes -->
@@ -195,6 +177,99 @@
     <div class="clear"></div>
 
 </div>
+
+
+<!-- Photo gallery is only included when exporting. -->
+<!-- PhotoSwipe gallery -->
+
+<link rel="stylesheet" href="Resources/PhotoSwipe/photoswipe.css">
+<link rel="stylesheet" href="Resources/PhotoSwipe/default-skin/default-skin.css">
+<script src="Resources/PhotoSwipe/photoswipe.min.js"></script>
+<script src="Resources/PhotoSwipe/photoswipe-ui-default.min.js"></script>
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="pswp__bg"></div>
+    <div class="pswp__scroll-wrap">
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Close"></button>
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Previous">
+            </button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next">
+            </button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    var openPhotoSwipe = function(event) {
+        var pswp = document.querySelector('.pswp');
+        
+        var element = event.target;
+        var src = element.getAttribute('src');
+        
+        // build items array
+        var items = [
+            
+            {
+                msrc: 'Images/6C7B96E8-4CC8-4618-AEF2-CFE87D91A177/E3B1BAA7-8024-4CA1-9B06-9E7596660FD3.jpg',
+                src: 'Images/6C7B96E8-4CC8-4618-AEF2-CFE87D91A177/E3B1BAA7-8024-4CA1-9B06-9E7596660FD3.jpg',
+                w: 768.0,
+                h: 1024.0,
+                title: '1'
+            },
+            
+            {
+                msrc: 'Images/6C7B96E8-4CC8-4618-AEF2-CFE87D91A177/43C19C58-7276-4C7F-85D4-B1FA3D1BBA6E.jpg',
+                src: 'Images/6C7B96E8-4CC8-4618-AEF2-CFE87D91A177/43C19C58-7276-4C7F-85D4-B1FA3D1BBA6E.jpg',
+                w: 1200.0,
+                h: 1600.0,
+                title: '2'
+            },
+            
+        ];
+        
+        var index = 0;
+        for (var i=0; i<items.length; i++) {
+            var item = items[i];
+            if (item.src == src) {
+                index = i;
+            }
+        }
+                         
+        var options = {
+            index: index,
+            history: false,
+            focus: true,
+            captionEl: true,
+            fullscreenEl: false,
+            zoomEl: false,
+            shareEl: false,
+            preloaderEl: false,
+            bgOpacity: 0.9,
+            showHideOpacity: true
+        };
+                             
+        var gallery = new PhotoSwipe(pswp, PhotoSwipeUI_Default, items, options);
+        gallery.init();
+    };
+
+    var elements = document.querySelectorAll('.photoswipe');
+    for (var i=0; i<elements.length; i++) {
+        var element = elements[i];
+        element.addEventListener('click', openPhotoSwipe);
+    }
+</script>
 
 
 
